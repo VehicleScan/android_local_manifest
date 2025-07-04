@@ -17,11 +17,11 @@
 
 
 
-    <remove-project name="hardware/interfaces"/>
+    <remove-project name="platform/hardware/interfaces"/>
     <project path="hardware/interfaces" name="VehicleScan/interfaces" remote="github" revision="main"/> 
 
 
-    <remove-project name="packages/services/Car"/>
+    <remove-project name="platform/packages/services/Car"/>
     <project path="packages/services/Car" name="VehicleScan/Car" remote="github" revision="main"/> 
     
 
