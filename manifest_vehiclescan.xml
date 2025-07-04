@@ -5,11 +5,11 @@
 
 
     
-    <remove-project name="device/brcm/rpi4-kernel"/>
+    <remove-project name="raspberry-vanilla/android_device_brcm_rpi4-kernel"/>
     <project path="device/brcm/rpi4-kernel" name="VehicleScan/rpi4-kernel" remote="github" revision="main" />
 
 
-    <remove-project name="device/brcm/rpi4"/>
+    <remove-project name="raspberry-vanilla/android_device_brcm_rpi4"/>
     <project path="device/brcm/rpi4" name="VehicleScan/android_device_brcm_rpi4" remote="github" revision="android-15.0" >
     <linkfile src="mkimg.sh" dest="rpi4-mkimg.sh" />
     <linkfile src="wrimg.sh" dest="rpi4-wrimg.sh" />
